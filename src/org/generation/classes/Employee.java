@@ -99,4 +99,12 @@ public class Employee {
 			   return 2.2 * salary;
 		   }
 
+		@Override
+		public String toString() {
+			return "Employee [firsName=" + firsName + ", lastName=" + lastName + ", registration=" + registration
+					+ ", age=" + age + ", daysWorked=" + daysWorked + ", vacationDaysTaken=" + vacationDaysTaken
+					+ ", salary=" + salary + ", yearsWorked=" + yearsWorked + "]";
+		}
+
+		   
 }//class Employee
